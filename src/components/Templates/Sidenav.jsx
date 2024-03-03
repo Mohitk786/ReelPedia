@@ -9,7 +9,7 @@ export const Sidenav = () => {
     <div className='w-[20%] h-full border-r-2 border-zinc-200 p-10'>
         <h1 className='text-2xl text-white font-bold'>
             <i class="text-[#6556CD] ri-tv-fill mr-2"></i>
-            <span className='text-2xl'>Mohit TV Show</span>
+            <span className='text-2xl'>Reel <span className='text-[#6556CD]'>Pedia</span></span>
         </h1>
         <nav className='flex flex-col text-zinc-200 text-xl gap-3'>
             <h1 className='text-white font-semibold text-xl mt-10 mb-5'>New Feeds</h1>

@@ -56,7 +56,7 @@ const People = () => {
             
             <div className='px-[5%] w-full flex items-center justify-between'>
                 <h1 className='text-2xl text-zinc-400 font-semibold'>
-                    <i onClick={()=>navigate(-1)} class="hover:text-[#6556CD] ri-arrow-left-line"></i>{" "}People<small className='text-sm ml-2 text-zinc-700'> ({category})</small></h1>
+                    <i onClick={()=>navigate(-1)} class="hover:text-[#6556CD] cursor-pointer ri-arrow-left-line"></i>{" "}People<small className='text-sm ml-2 text-zinc-700'> ({category})</small></h1>
     
                 <div className='flex items-center w-[80%]'>
                     <Topnav/>

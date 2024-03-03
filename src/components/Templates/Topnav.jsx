@@ -26,7 +26,7 @@ const Topnav = () => {
 
     return (
     <div className="z-[100] w-full h-[10vh] flex items-center justify-start relative ml-[15%]">
-        <i class="text-zinc-400 text-3xl ri-search-line"></i>
+        <i class="text-zinc-400 text-3xl cursor-pointer ri-search-line"></i>
         <input
             onChange={(e) => setQuery(e.target.value)}
             value={query}
@@ -38,7 +38,7 @@ const Topnav = () => {
             query.length > 0 && (
             <i 
                 onClick={()=>setQuery("")}
-                class="text-zinc-400 text-3xl ri-close-fill">
+                class="text-zinc-400 text-3xl cursor-pointer ri-close-fill">
             </i>)
         }
         

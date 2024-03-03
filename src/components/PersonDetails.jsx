@@ -30,7 +30,7 @@ const PersonDetails = () => {
     <div className='w-screen px-[15%] h-[150vh] flex flex-col bg-[#1F1E24]'>
 
         <nav className='h-[10vh] w-full text-zinc-100 flex  items-center gap-10  text-2xl'>
-          <i onClick={()=>navigate(-1)} class="hover:text-[#6556CD] ri-arrow-left-line"></i>
+          <i onClick={()=>navigate(-1)} class="hover:text-[#6556CD] cursor-pointer ri-arrow-left-line"></i>
         </nav>
 
 

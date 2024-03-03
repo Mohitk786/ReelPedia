@@ -3,7 +3,6 @@ import ReactPlayer from 'react-player'
 import { useNavigate } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
 import { useSelector } from 'react-redux'
-import NotFound from '../NotFound'
 
 const Trailer = () => {
   
@@ -24,12 +23,12 @@ const Trailer = () => {
         ></i>
 
         {
-            video ? <ReactPlayer 
+            video?.key ? <ReactPlayer 
             controls
             width={1500}
             height={800}
             url={`https://www.youtube.com/watch?v=${video.key}`}
-            /> : <NotFound/>
+            /> : <div className='text-4xl font-semibold text-white flex items-center justify-center'>No Trailer Available</div>
         }
         
 

@@ -33,7 +33,7 @@ const MovieDetails = () => {
         
         {/* navigation */}
         <nav className='h-[10vh] w-full text-zinc-100 flex  items-center gap-10  text-2xl'>
-          <i onClick={()=>navigate(-1)} class="hover:text-[#6556CD] ri-arrow-left-line"></i>
+          <i onClick={()=>navigate(-1)} class="hover:text-[#6556CD] cursor-pointer ri-arrow-left-line"></i>
 
           <a target='_blank' href={info.detail.homepage}><i class="ri-external-link-line"></i></a>
           <a target='_blank' href={`https://www.wikidata.org/wiki/{${info.externalId?.wikidata_id}}`}><i class="ri-earth-fill"></i></a>
